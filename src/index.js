@@ -1,6 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import "./index.css"
+import Header from "./header"
 
-const App = () => <div>First webpack app</div>
+const App = () => (
+  <>
+    <Header />
+    <div>First webpack app</div>
+  </>
+)
 
 ReactDOM.render(<App />, document.getElementById("app"))
